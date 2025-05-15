@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Дата рождения</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <h1 class="title">Введите дату рождения</h1>
+    <form id="birthdayForm" class="form">
+      <label for="day" class="form__label">День:</label>
+      <input
+        type="number"
+        id="day"
+        name="day"
+        min="1"
+        max="31"
+        required
+        class="form__input"
+      />
+
+      <label for="month" class="form__label">Месяц:</label>
+      <input
+        type="number"
+        id="month"
+        name="month"
+        min="1"
+        max="12"
+        required
+        class="form__input"
+      />
+
+      <label for="year" class="form__label">Год:</label>
+      <input
+        type="number"
+        id="year"
+        name="year"
+        min="1900"
+        max="2025"
+        required
+        class="form__input"
+      />
+
+      <button type="submit" class="form__button">Отправить</button>
+    </form>
+
+    <div class="result" id="dateBirthday"></div>
+    <div class="result" id="dayOfWeek"></div>
+    <div class="result" id="leapYear"></div>
+    <div class="result" id="age"></div>
+
+    <script src="helpers.js"></script>
+    <script src="constants.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
