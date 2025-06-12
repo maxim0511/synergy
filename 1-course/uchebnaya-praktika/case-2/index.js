@@ -35,10 +35,10 @@ const showBirthday = (event) => {
 
 // ➔	Напишите функцию, которая определяет какому дню недели соответствует эта дата?
 const showDayOfWeek = () => {
-  const date = new Date(year.value, month.value, day.value);
+  const date = new Date(year.value, month.value - 1, day.value);
   const dayOfWeek = daysOfWeek[date.getDay()];
 
-  dayOfWeekBlock.innerText = `День недели:${dayOfWeek}.`;
+  dayOfWeekBlock.innerText = `День недели: ${dayOfWeek}.`;
 };
 
 // ➔	Напишите функцию, которая определяет - високосный это был год, или нет?

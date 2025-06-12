@@ -53,6 +53,10 @@ body {
   background: #388e3c;
 }
 
+.slider__btn:active {
+  background: #4caf50;
+}
+
 .slider__counter {
   margin-top: 18px;
   font-size: 18px;

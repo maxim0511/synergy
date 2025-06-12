@@ -1,9 +1,9 @@
 const images = [
-  "https://picsum.photos/id/1015/400/250",
-  "https://picsum.photos/id/1016/400/250",
-  "https://picsum.photos/id/1018/400/250",
-  "https://picsum.photos/id/1020/400/250",
-  "https://picsum.photos/id/1024/400/250",
+  "images/picture_1.jpg",
+  "images/picture_2.jpg",
+  "images/picture_3.jpg",
+  "images/picture_4.jpg",
+  "images/picture_5.jpg",
 ];
 
 let currentIndex = 0;
